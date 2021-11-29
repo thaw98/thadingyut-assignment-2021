@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+    background: linear-gradient(200deg, #00469c, #80dbff);
+    background-attachment: fixed;
+}
+/*Header Title*/
+.head-title{
+    position: relative;
+    background-color: rgba(0, 209, 255,0.35);
+    width: 100%;
+    height: 40px;
+}
+.title{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 1px rgb(0, 47, 148);
+}
+/*Card Box*/
+.img-card{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 360px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+.card:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+/*card paragraph+body*/
+.card-body{
+    padding: 10px;
+}
+.pre{
+    white-space: pre-line;
+}
+.justify{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.card-paragraph{
+    margin-bottom:0;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+/*Heart Button*/
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: #fc5185;
+    color: #ffffff;
+    border: 2px solid #fc5185;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: -45px;
+    transition: 0.5s;
+}
+/*When heart button hover*/
+.btn:hover{
+    background-color: #ffffff;
+    color: #fc5185;
+    border: 2px solid #fc5185;
+}
+/*Circle image*/
+.img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: -30px;
+    margin-top: 5px;
+    transition: transform 1.5s ease-in-out;
+}
+/*Circle Image rotate*/
+.img-circle:hover{
+    transform: rotate(360deg);
+}
+/*Home button*/
+.home-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn2{
+    background-color: #ffffff;
+    color: #00469c;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    transition: 1s;
+}
+/*Hover home button*/
+.btn2:hover{
+    background-color: #00469c;
+    color: #ffffff;
+}
+.btn2:active{
+    background-color: #007de4;
+    color: #ffffff;
+}
+/*Up arrow float right*/
+.arrow{
+	position:fixed;
+	width:45px;
+	height:45px;
+	bottom:10px;
+	right:20px;
+    background: linear-gradient(50deg, rgb(180,241,241), rgb(30,98,98)); 
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    text-shadow: 1px 3px 3px #4592af;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/*Hover home button*/
+.arrow:hover{
+    background: linear-gradient(50deg, rgb(30,98,98), rgb(180,241,241));
+    color:  #1e6262;
+}
+/*Footer design*/
+.footer1{
+    background-color: #ffffff;
+    color: #00469c;
+    text-align: center;
+}
